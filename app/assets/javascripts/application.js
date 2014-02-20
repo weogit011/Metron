@@ -10,7 +10,14 @@
 // Read Sprockets README (https://github.com/sstephenson/sprockets#sprockets-directives) for details
 // about supported directives.
 //
-//= require jquery
-//= require jquery_ujs
-//= require turbolinks
+//= require plugins/jquery-1.10.2.min
+//= require plugins/jquery-migrate-1.2.1.min
+//= require plugins/bootstrap/js/bootstrap.min
+//= require plugins/back-to-top
+//= require plugins/fancybox/source/jquery.fancybox.pack
+//= require plugins/revolution_slider/rs-plugin/js/jquery.themepunch.plugins.min
+//= require plugins/revolution_slider/rs-plugin/js/jquery.themepunch.revolution.min
+//= require plugins/bxslider/jquery.bxslider.min
+//= require scripts/app
+//= require scripts/index
 //= require_tree .

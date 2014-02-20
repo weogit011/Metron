@@ -9,5 +9,16 @@
  * compiled file, but it's generally better to create a new file per style scope.
  *
  *= require_self
+ *= require plugins/font-awesome/css/font-awesome.min
+ *= require plugins/bootstrap/css/bootstrap.min
+ *= require plugins/fancybox/source/jquery.fancybox
+ *= require plugins/revolution_slider/css/rs-style
+ *= require plugins/revolution_slider/rs-plugin/css/settings
+ *= require plugins/bxslider/jquery.bxslider
+ *= require css/style-metronic
+ *= require css/style
+ *= require css/themes/blue
+ *= require css/style-responsive
+ *= require css/custom
  *= require_tree .
  */
