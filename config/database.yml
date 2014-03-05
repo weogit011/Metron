@@ -1,17 +1,17 @@
 
 development:
-  adapter: postgresql
+  adapter: mysql2 #postgresql
   host: localhost
-  username: postgres
+  username: root #postgres
   password: root
   database: mertronic_devel
   pool: 5
   timeout: 5000
 
 test:
-  adapter: postgresql
+  adapter: mysql2 #postgresql
   host: localhost
-  username: postgres
+  username: root #postgres
   password: root
   database: mertronic_test
   pool: 5
